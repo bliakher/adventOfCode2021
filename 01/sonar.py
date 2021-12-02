@@ -23,6 +23,6 @@ def sonar(data):
     return counter
 
 
-sonar_data = read_input_to_list("input.txt")
+sonar_data = read_input_to_list("../02/input.txt")
 result = sonar(sonar_data)
 print(result)
